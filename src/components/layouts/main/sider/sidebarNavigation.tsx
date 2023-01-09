@@ -1,14 +1,14 @@
 import React from 'react';
 import {
-  CompassOutlined,
-  DashboardOutlined,
+  // CompassOutlined,
+  // DashboardOutlined,
   FormOutlined,
-  HomeOutlined,
-  LayoutOutlined,
-  LineChartOutlined,
-  TableOutlined,
+  // HomeOutlined,
+  // LayoutOutlined,
+  // LineChartOutlined,
+  // TableOutlined,
   UserOutlined,
-  BlockOutlined,
+  // BlockOutlined,
 } from '@ant-design/icons';
 import { ReactComponent as NftIcon } from '@app/assets/icons/nft-icon.svg';
 
@@ -73,8 +73,8 @@ export const sidebarNavigation: SidebarNavigationItem[] = [
         url: '/auth/sign-up',
       },
     ],
-    },
-      // {
+  },
+  // {
   //     //   title: 'common.lock',
   //     //   key: 'lock',
   //     //   url: '/auth/lock',
@@ -96,7 +96,6 @@ export const sidebarNavigation: SidebarNavigationItem[] = [
   //     // },
   //   ],
   // },
-  
   // {
   //   title: 'common.dataTables',
   //   key: 'dataTables',

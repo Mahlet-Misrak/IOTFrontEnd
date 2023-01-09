@@ -1,9 +1,8 @@
 import { useTranslation } from 'react-i18next';
 import { BaseForm } from '@app/components/common/forms/BaseForm/BaseForm';
-import { Input } from '@app/components/common/inputs/Input/Input';
+// import { Input } from '@app/components/common/inputs/Input/Input';
 import { InputPassword } from '@app/components/common/inputs/InputPassword/InputPassword';
 import * as S from '../StepForm.styles';
-
 export const Step1: React.FC = () => {
   const { t } = useTranslation();
   return (
@@ -11,9 +10,9 @@ export const Step1: React.FC = () => {
       <BaseForm.Item
         name="login"
         label={t('forms.stepFormLabels.login')}
-        rules={[{ required: true, message: t('forms.stepFormLabels.loginError') }]}
+        rules={[{ required: true, message: t('forms.stepFormLabels.loginError')}]}
       >
-        <Input />
+        {/* <Input /> */}
       </BaseForm.Item>
       <BaseForm.Item
         name="password"

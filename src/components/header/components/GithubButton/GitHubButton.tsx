@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button as BaseButton } from 'antd';
-import { GithubOutlined } from '@ant-design/icons';
+// import { GithubOutlined } from '@ant-design/icons';
 import styled from 'styled-components';
 import { useAppSelector } from '@app/hooks/reduxHooks';
 import { BASE_COLORS } from '@app/styles/themes/constants';
@@ -39,7 +39,7 @@ const Button = styled(BaseButton)<{ $isDark: boolean }>`
   }
 `;
 
-const GithubIcon = styled(GithubOutlined)`
-  font-size: 1.5rem;
-  vertical-align: middle;
-`;
+// const GithubIcon = styled(GithubOutlined)`
+//   font-size: 1.5rem;
+//   vertical-align: middle;
+// `;

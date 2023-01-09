@@ -10,7 +10,7 @@ export const getRecentlyAddedNfts = (): Promise<NftItem[]> => {
   return new Promise((res) => {
     res([
       {
-        image: process.env.REACT_APP_ASSETS_BUCKET + '/recently-added/ezgif.com-gif-maker_1_na4ogi.gif',
+        image: process.env.REACT_APP_ASSETS_BUCKET + '/recently-added/kj.png',
         title: 'XCopy Humano',
         author: 'neithanwolf',
         currentBid: 3521,
